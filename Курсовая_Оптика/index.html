@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Интернет‑магазин оптики Дуванского, здесь вы найдёте всё !</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js"></script>
+    <script src="supabase.js"></script>
+    
+</head>
+<body>
+
+  <div class="scroll-indicator">
+    <div class="scroll-indicator-fill"></div>
+  </div>
+
+    <!-- Моя Шапка -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-branding">
+                <a href="#" class="site-title">ПРИZ — оптика Дуванского</a>
+            </div>
+            <nav class="main-nav" id="mainNav">
+                <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                    ☰
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#products">Категории</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#blog">Блог</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Гланая -->
+    <section class="hero" id="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1>ПРИZ — чёткость зрения без границ</h1>
+                <p>
+                    Оптика Дуванского подберёт линзы и очки для повседневной жизни, работы и спорта — с учётом ваших индивидуальных особенностей зрения и образа жизни. Мы поможем найти решение для любых задач: будь то чёткость взгляда за рулём, комфорт при работе за компьютером или надёжная защита глаз во время тренировок..
+                </p>
+                <a href="#shop" class="btn btn-primary">Выбрать очки</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img
+                    src="Photo\c4dd72702b7711f1a18e2a9768a85627_1.jpg"
+                    alt="Современные очки в оптике ПРИZ"
+                    class="hero-image"
+                />
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- ИНФОРМАЦИЯ О КОМПАНИИ / МОЯ КОМАНДА ПРИZ-321 
+         Уникализирую текст и фотографии-->
+        <section class="section section-about" id="about">
+            <div class="container two-columns">
+                <div class="column">
+                    <img
+                        src="Photo\10.jpg"
+                        alt="Упаковка линз оптики ПРИZ"
+                        class="img-responsive"
+                    />
+                </div>
+                <div class="column">
+                    <h2>Команда</h2>
+                    <p>
+                        Мы развиваем оптику команды офиальмологов ПРИZ, чтобы сделать современное качество зрения доступным каждому. Наши специалисты подбирают решения, учитывая образ жизни, привычки и индивидуальные особенности — потому что для нас каждый клиент уникален.
+
+Представьте: вы больше не щуритесь, пытаясь разглядеть вывеску, не испытываете дискомфорта после долгого дня за экраном, а каждое утро встречаете мир с чёткостью и ясностью. Это не мечта — это реальность, которую мы создаём для вас.
+
+Неважно, проводите ли вы дни в офисе, путешествуете, занимаетесь спортом или просто наслаждаетесь прогулкой — у нас найдётся идеальное оптическое решение именно для вас. В команде ПРИZ мы верим: хорошее зрение — это свобода видеть всё, что важно, и наслаждаться каждым моментом без ограничений.
+                    </p>
+                    <a href="#services" class="btn btn-outline">Подробнее здесь</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПРОДУКТЫ МОЕЙ КОМПАНИИ -->
+        <section class="section section-products" id="products">
+            <div class="container">
+                <h2 class="section-title">Категории товаров</h2>
+                <div class="cards-grid">
+                    <article class="card card-cover">
+                        <div class="card-media">
+                            <img
+                                src="https://duvanskiyrus-umxks.wordpress.com/wp-content/uploads/2026/03/d09ed0bfd182d0b8d0bad0b0-d094d183d0b2d0b0d0bdd181d0bad0bed0b3d0be-69c92879207c0.png"
+                                alt="Контактные линзы"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h3>Контактные линзы</h3>
+                            <p>
+                                Ежедневные, двухнедельные и месячные линзы для разных задач и уровней чувствительности глаз. Мы поможем подобрать оптимальный вариант с учётом вашего образа жизни и индивидуальных особенностей зрения.
+                            </p>
+                            <a href="#" class="card-link">Смотреть линзы</a>
+                        </div>
+                    </article>
+
+                    <article class="card card-cover">
+                        <div class="card-media">
+                            <img
+                                src="https://duvanskiyrus-umxks.wordpress.com/wp-content/uploads/2026/03/d09ed0bfd182d0b8d0bad0b0-d094d183d0b2d0b0d0bdd181d0bad0bed0b3d0be-69c92879611bd.png"
+                                alt="Оправа очков"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h3>Оправа очков</h3>
+                            <p>
+                                Дизайнерские и классические оправы для повседневной носки, работы и спорта — у нас вы найдёте решение на любой случай. Подберём модель, которая подчеркнёт ваш стиль и обеспечит комфорт в любых условиях.
+                            </p>
+                            <a href="#" class="card-link">Выбрать оправу</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕРВИСЫ -->
+        <section class="section section-services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Услуги</h2>
+                </div>
+                <div class="cards-grid">
+                    <article class="card">
+                        <div class="card-media">
+                            <img
+                                src="Photo\4.jpg"
+                                alt="Компьютерная диагностика зрения"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h3>Компьютерная диагностика</h3>
+                            <p>
+                                Компьютерная диагностика зрения на современном и передовом оборудовании
+                                с расшифровкой результатов нашего опытного специалиста от компании Дуванского !
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media">
+                            <img
+                                src="https://duvanskiyrus-umxks.wordpress.com/wp-content/uploads/2026/03/d09ed0bfd182d0b8d0bad0b0-d094d183d0b2d0b0d0bdd181d0bad0bed0b3d0be-69c928798aac1.png"
+                                alt="Подбор очков и линз"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h3>Подбор очков и линз</h3>
+                            <p>
+                                Наши специалисты без труда подберут для вас очки и контактные линзы, обучат правильному уходу и правилам
+                                ношения для максимального комфорта.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- РЕКИ -->
+        <section class="section section-testimonials">
+            <div class="container testimonial-inner">
+                <div class="testimonial-image">
+                    <div class="avatar-placeholder"></div>
+                </div>
+                <div class="testimonial-content">
+                    <h2 class="testimonial-quote">
+                        «Очень довольна результатом, с линзами от компании Дуванского я впервые весь день за компьютером провожу без
+                        усталости в глазах !»
+                    </h2>
+                    <p class="testimonial-name">— Аня Ардор</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ГАЛЛЕРЕЯ -->
+        <section class="section section-gallery">
+            <div class="container">
+                <h2 class="section-title">Галерея наших клиентов и компании</h2>
+                <div class="gallery-grid">
+                    <img
+                        src="Photo\c4dd72702b7711f1a18e2a9768a85627_1.jpg"
+                        alt="Вход в магазин оптики Дуванского"
+                    />
+                     <img
+                        src="Photo\55.webp"
+                        alt="Цветные линзы крупным планом"
+                    />
+                     <img
+                        src="Photo\77.jpg"
+                        alt="Линзы"
+                    />
+                    <img
+                        src="Photo\1.png"
+                        alt="Дневные линзы крупным планом"
+                    />
+                    <img
+                        src="Photo\111.jpg"
+                        alt="Премиальные оправы"
+                    style=" width: 220px"/>
+                    <img
+                        src="Photo\3.png"
+                        alt="Диагностическое оборудование"
+                    />
+                    <img
+                        src="Photo\66.webp"
+                        alt="Цветные линзы Киберпанк компании Дуванского"
+                    />
+                    <img
+                        src="Photo\88.jpg"
+                        alt="Команда ПРИZ компании Дуванского"
+                    />
+                    <img
+                        src="Photo\99.jpg"
+                        alt="Премиальный ассортимент компании Дуванского"
+                    style=" width: 180px"/>
+                    <img
+                        src="Photo\4.jpg"
+                        alt="Офтальмолог компании ПРИZ-321 проверяет зрение"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+<!-- АССОРТИМЕНТ И КОРЗИНА -->
+<section class="section section-shop" id="shop">
+    <div class="container">
+        <h2 class="section-title">Приглашаем ознакомиться с рекомендуемым ассортиментом очков и линз — возможно, Вы найдёте то, что так давно искали!</h2>
+        
+        <!-- Корзина -->
+        <div class="cart-summary">
+            <h3>Корзина</h3>
+            <div id="cartItems"></div>
+            <p>Общая сумма: <span id="totalPrice">0</span> руб.</p>
+            <button id="checkoutBtn" class="btn btn-primary" disabled>Оформить заказ</button>
+        </div>
+        
+        <!-- Товары -->
+        <div class="cards-grid">
+          
+            <!-- Товар 1 -->
+             
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\100.webp"
+                        alt="Очки для компьютера"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Очки для компьютера</h3>
+                    <p>Антибликовое покрытие, защита от света</p>
+                    <p class="price">3 500 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="1" data-name="Очки для компьютера" data-price="3500">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 2 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\1.png"
+                        alt="Контактные линзы ежемесячные"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Контактные линзы (30 дней)</h3>
+                    <p>Силикон-гидрогелевые, 6 шт. в упаковке</p>
+                    <p class="price">1 800 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="2" data-name="Контактные линзы (30 дней)" data-price="1800">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 3 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\2.png"
+                        alt="Солнцезащитные очки"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Солнцезащитные очки</h3>
+                    <p>Поляризационные линзы UV-400</p>
+                    <p class="price">3 200 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="3" data-name="Солнцезащитные очки" data-price="3200">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 4 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\konteiner_linz.jpg"
+                        alt="контейнер для линз компании Дуванского"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Контейнер гиппоалергенный</h3>
+                    <p>Забудьте о пластике, мы ценим ваши глаза !</p>
+                    <p class="price">150 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="4" data-name="Контейнер гиппоалергенный" data-price="150">Добавить в корзину</button>
+                </div>
+            </article>
+            <!-- Товар 5 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\Rastvor_Duvanskogo.jpg"
+                        alt="Раствор для линз от компании Дуванского"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Раствор для линз нашей компании</h3>
+                    <p>Один из лучших растворов на рынке !</p>
+                    <p class="price">800 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="5" data-name="Раствор для линз" data-price="800">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 6 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\131.webp"
+                        alt="Очки-тренажёр"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Очки-тренажёр для коррекции</h3>
+                    <p>Очки для коррекции ПРИZ-Hight200</p>
+                    <p class="price">1 900 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="6" data-name="Очки-тренажёр для коррекции зрения" data-price="1900">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 7 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\112.webp"
+                        alt="Цветные линзы Хамелеон"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Цветные линзы (Хамелеон)</h3>
+                    <p>Гидрогелевые, 4 шт. в упаковке</p>
+                    <p class="price">1 200 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="7" data-name="Цветные линзы хамелеон" data-price="1200">Добавить в корзину</button>
+                </div>
+            </article>
+
+            <!-- Товар 8 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\141.webp"
+                        alt="Накладка солнцезащитная"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Солнцезащитные накладки</h3>
+                    <p>Накладки на очки солнцезащитные</p>
+                    <p class="price">1 000 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="8" data-name="Солнцезащитные накладки" data-price="1000">Добавить в корзину</button>
+                </div>
+            </article>
+        
+            <!-- Товар 9 -->
+            <article class="card card-cover">
+                <div class="card-media">
+                    <img
+                        src="Photo\167.webp"
+                        alt="Защитная плёнка для монитора"
+                    />
+                </div>
+                <div class="card-body">
+                    <h3>Защитная плёнка для монитора</h3>
+                    <p>Предотвращает 99% синего излучения</p>
+                    <p class="price">1 300 руб.</p>
+                    <button class="btn btn-outline add-to-cart" data-id="9" data-name="Защитная плёнка для монитора" data-price="1300">Добавить в корзину</button>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+        <!-- БЛОГ -->
+        <section class="section section-blog" id="blog">
+            <div class="container two-columns">
+                <div class="column">
+                    <h2>Блог</h2>
+                    <p>
+                        Полезные советы по выбору очков, линз и уходу за зрением, а также новости оптики и современные технологии — это комплекс знаний, который помогает сохранить здоровье глаз, подобрать комфортную оптику и использовать последние достижения в области коррекции зрения.
+                    </p>
+                </div>
+                <div class="column">
+                    <!-- Здесь я использую блок Query. В статичной версии — заглушки карточек. -->
+                    <article class="post-preview">
+                        <h3><a href="#">Как выбрать очки для работы за компьютером</a></h3>
+                        <p>
+                           Узнайте, какие покрытия и диоптрии помогут снизить нагрузку на глаза — и обеспечьте себе чёткое, комфортное зрение в любых условиях...
+                        </p>
+                    </article>
+                    <article class="post-preview">
+                        <h3><a href="#">Чем отличаются дневные и месячные линзы</a></h3>
+                        <p>
+Разбираемся в ключевых отличиях, плюсах и минусах разных типов линз — чтобы вы могли сделать осознанный выбор в пользу комфорта и чёткости зрения...
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- КОНТАКТЫ -->
+        <section class="section section-contact" id="contact">
+            <div class="container two-columns">
+                <div class="column">
+                    <h2>Контакты</h2>
+                    <p class="contact-info">
+                        Телефон: <a href="tel:+70000000000">+7 (989) 635‑48‑04</a><br />
+                        E-mail: <a href="mailto:duvanskiy.rus@gmail.com">duvanskiy.rus@gmail.com</a>
+                    </p>
+                    <p class="contact-address">
+                        ул. Приз, д.321, магазин-оптики.
+                    </p>
+                </div>
+                <div class="column">
+                    <!-- Статический аналог формы Jetpack -->
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР МОЕГО САЙТА -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <nav class="footer-nav">
+                <a href="#hero">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#services">Услуги</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://t.me/@RucifIKaTor" aria-label="Telegram">TG</a>
+                <a href="https://vk.com/rusiflkator" aria-label="VK">VK</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Мобильное меню !
+const navToggle = document.getElementById("navToggle");
+const navList = document.querySelector(".nav-list");
+
+if (navToggle && navList) {
+    navToggle.addEventListener("click", () => {
+        navList.classList.toggle("is-open");
+    });
+
+    // Закрываю меню при клике по ссылке
+    navList.addEventListener("click", (e) => {
+        if (e.target.tagName === "A") {
+            navList.classList.remove("is-open");
+        }
+    });
+}
+
+//  Здесь я реализую Плавный скролл
+document.addEventListener("click", (e) => {
+    const link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const targetId = link.getAttribute("href").slice(1);
+    if (!targetId) return;
+
+    const targetEl = document.getElementById(targetId);
+    if (!targetEl) return;
+
+    e.preventDefault();
+    const headerOffset = document.querySelector(".site-header")?.offsetHeight || 0;
+    const elementPosition = targetEl.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset - 8;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+    });
+});
+</script>
+<script>navToggle.addEventListener("click", () => {
+  navList.classList.toggle("is-open");
+  document.body.style.overflow = navList.classList.contains("is-open") ? "hidden" : "auto";
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+
+  // Показываем/скрываем кнопку при скролле
+  window.addEventListener('scroll', function() {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.classList.add('visible');
+    } else {
+      scrollToTopBtn.classList.remove('visible');
+    }
+  });
+
+  // Плавная прокрутка наверх при клике
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+
+<style>
+/* Базовые стили */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+    color: #111827;
+    background-color: #f9fafb;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Сброс для мобильных */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* Убираем отступы при скролле на iOS */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    max-width: none;
+    margin: 0 auto 20px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+
+.gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr); /* Две колонки на очень маленьких экранах */
+    gap: 8px;
+  }
+
+  .gallery-grid img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 16px;
+  }
+
+  .form-group {
+    margin-bottom: 12px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .footer-nav a {
+    margin-right: 0;
+    margin: 4px 8px;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .cards-grid {
+    grid-template-columns: 1fr; /* Одна колонка на очень маленьких экранах */
+    gap: 16px;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card-media img {
+    height: 180px; /* Уменьшаем высоту изображений */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .section-shop .container {
+    flex-direction: column;
+  }
+
+  .cart-summary {
+    order: -1;
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding: 16px;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .cart-item span:first-of-type {
+    text-align: left;
+    width: 100%;
+  }
+
+  .btn-remove {
+    align-self: flex-end;
+  }
+}
+
+
+/* Контейнеры и сетка */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* ХЕДЕР */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(249, 250, 251, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.main-nav {
+    position: relative;
+}
+
+.nav-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-list a:hover {
+    background: #111827;
+    color: #f9fafb;
+}
+
+.nav-toggle {
+    display: none;
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* ГЛАВНЯ */
+.hero {
+    padding: 72px 0 64px;
+    background: linear-gradient(135deg, #eff6ff, #f9fafb);
+}
+
+.hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    max-width: 480px;
+    margin-bottom: 24px;
+    color: #4b5563;
+}
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+}
+
+.btn-remove {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+
+.btn-remove:hover {
+  background: #dc2626;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+        transform 0.1s ease;
+}
+
+.btn-primary {
+    background: #111827;
+    color: #f9fafb;
+}
+
+.btn-primary:hover {
+    background: #000;
+    transform: translateY(-1px);
+}
+
+.btn-outline {
+    background: transparent;
+    color: #111827;
+    border-color: #111827;
+}
+
+.btn-outline:hover {
+    background: #111827;
+    color: #f9fafb;
+}
+
+/* Две колонки */
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: center;
+}
+
+.column {
+    min-width: 0;
+}
+
+.img-responsive {
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+}
+
+/* Картоски */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-media img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 16px 18px 18px;
+}
+
+.card-body h3 {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+}
+
+.card-body p {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+.card-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2563eb;
+}
+
+/* СЕРВИСЫ */
+.section-services {
+    background: #f3f4f6;
+}
+
+.section-services .card-media img {
+    height: 200px;
+}
+
+.section-header {
+    margin-bottom: 24px;
+}
+
+/* РЕКИ */
+.section-testimonials {
+    background: #111827;
+    color: #f9fafb;
+}
+
+.testimonial-inner {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #60a5fa, #22d3ee);
+}
+
+.testimonial-quote {
+    font-size: 1.4rem;
+    margin: 0 0 8px;
+}
+
+.testimonial-name {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 0.95rem;
+}
+
+/* Опять галлерея */
+.section-gallery {
+    background: #ffffff;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.gallery-grid img {
+    border-radius: 16px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+/* Стили для корзины */
+.cart-summary {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    margin-bottom: 32px;
+}
+
+.cart-summary h3 {
+    margin: 0 0 16px;
+    font-size: 1.2rem;
+}
+
+#cartItems {
+    margin-bottom: 16px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.price {
+    font-weight: 600;
+    color: #111827;
+    margin: 8px 0 12px;
+}
+
+/* Адаптивность: на мобильных устройствах корзина под товарами */
+@media (max-width: 768px) {
+    .section-shop .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cart-summary {
+        order: -1;
+        margin-bottom: 0;
+        margin-top: 32px;
+    }
+}
+
+
+/* Снова блог */
+.section-blog .post-preview {
+    padding: 14px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.section-blog .post-preview:last-child {
+    border-bottom: none;
+}
+
+.section-blog h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+}
+
+.section-blog p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+/* контакты */
+.section-contact {
+    background: #f9fafb;
+}
+
+.contact-info,
+.contact-address {
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 20px 20px 22px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    color: #4b5563;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.3);
+}
+
+/* фууутер */
+.site-footer {
+    border-top: 1px solid #e5e7eb;
+    background: #f9fafb;
+    padding: 16px 0;
+    font-size: 0.9rem;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    margin-right: 12px;
+    color: #4b5563;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    border-radius: 999px;
+    background: #111827;
+    color: #f9fafb;
+    font-size: 0.75rem;
+}
+
+/* Адаптивность под мобилки и всё такое */
+@media (max-width: 900px) {
+    .hero-inner {
+        grid-template-columns: minmax(0, 1fr);
+        text-align: center;
+    }
+
+    .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-image-wrapper {
+        order: -1;
+    }
+
+    .two-columns {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .testimonial-inner {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        flex-direction: column;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 8px;
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+        transform-origin: top right;
+        transform: scale(0.95);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.15s ease, transform 0.15s ease;
+        min-width: 180px;
+    }
+
+    .nav-list.is-open {
+        opacity: 1;
+        pointer-events: auto;
+        transform: scale(1);
+    }
+
+    .nav-list a {
+        display: block;
+        padding: 8px 10px;
+    }
+
+    .section {
+        padding: 48px 0;
+    }
+
+    .hero {
+        padding-top: 64px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Индикатор прокрутки */
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #f3f4f6;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.scroll-indicator-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  transition: width 0.1s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba1 100%);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#scrollToTop:hover {
+  background: linear-gradient(135deg, #764ba1 0%, #667eea 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#scrollToTop.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  #scrollToTop {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+</style>
+
+<script>
+// Логика корзины
+const cart = [];
+const cartItemsContainer = document.getElementById('cartItems');
+const totalPriceElement = document.getElementById('totalPrice');
+const checkoutBtn = document.getElementById('checkoutBtn');
+
+// Обработчик добавления в корзину
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', () => {
+        const id = button.getAttribute('data-id');
+        const name = button.getAttribute('data-name');
+        const price = parseInt(button.getAttribute('data-price'));
+        
+        // Проверяем, есть ли товар уже в корзине
+        const existingItem = cart.find(item => item.id === id);
+        if (existingItem) {
+            existingItem.quantity += 1;
+        } else {
+            cart.push({ id, name, price, quantity: 1 });
+        }
+        updateCart();
+        // Делегирование событий для динамически создаваемых кнопок удаления
+document.addEventListener('click', function(e) {
+  if (e.target.classList.contains('btn-remove')) {
+    const idToRemove = e.target.getAttribute('data-id');
+    removeFromCart(idToRemove);
+  }
+});
+
+// Функция удаления товара из корзины
+function removeFromCart(id) {
+  const index = cart.findIndex(item => item.id === id);
+  if (index !== -1) {
+    cart.splice(index, 1);
+    updateCart();
+  }
+}
+    });
+});
+
+// Обновление отображения моей корзины
+function updateCart() {
+    cartItemsContainer.innerHTML = '';
+    let total = 0;
+    
+    cart.forEach(item => {
+        total += item.price * item.quantity;
+        const cartItemElement = document.createElement('div');
+        cartItemElement.className = 'cart-item';
+        cartItemElement.innerHTML = `
+  <span>${item.name} × ${item.quantity}</span>
+  <span>${item.price * item.quantity} руб.</span>
+  <button class="btn-remove" data-id="${item.id}">Удалить</button>
+`;
+        cartItemsContainer.appendChild(cartItemElement);
+    });
+    
+    totalPriceElement.textContent = total;
+    checkoutBtn.disabled = cart.length === 0;
+}
+
+// Обработчик оформления заказов для покупателей :)
+checkoutBtn.addEventListener('click', () => {
+    alert(`Ваш заказ оформлен! Сумма: ${totalPriceElement.textContent} руб. Спасибо за покупку, будем рады видеть Вас снова! Сроки доставки уточняйте по нашей горячей линии`);
+    cart.length = 0;
+    updateCart();
+});
+
+</script>
+  <script>
+    // Скролл-бар (прокрутка для моего магазина-оптики)
+ window.addEventListener('load', function() {
+  const scrollIndicator = document.querySelector('.scroll-indicator-fill');
+  if (!scrollIndicator) {
+    console.warn('Элемент .scroll-indicator-fill не найден.');
+    return;
+  }
+
+    function updateScrollIndicator() {
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.documentElement.scrollHeight;
+      const scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Вычисляем процент прокрутки
+      const scrollPercent = (scrolled / (fullHeight - windowHeight)) * 100;
+
+      // Обновляем ширину индикатора
+      scrollIndicator.style.width = scrollPercent + '%';
+    }
+
+    // Добавляем обработчик события прокрутки
+    window.addEventListener('scroll', updateScrollIndicator);
+
+    // Инициализируем индикатор при загрузке страницы
+    updateScrollIndicator();
+  });
+</script>
+<script>
+    ;(function(name, factory) {
+    if (typeof window === 'object') {
+      window[name] = factory()
+    }
+  })('Ribbons', function() {
+    var _w = window,
+      _b = document.body,
+      _d = document.documentElement
+  
+    // Рандом помощник
+    var random = function() {
+      if (arguments.length === 1) {
+        // only 1 аргумент
+        if (Array.isArray(arguments[0])) {
+          // извлечь индекс из массива
+          var index = Math.round(random(0, arguments[0].length - 1))
+          return arguments[0][index]
+        }
+        return random(0, arguments[0]) // числовой
+      } else if (arguments.length === 2) {
+        // диапазон двух аргументов
+        return Math.random() * (arguments[1] - arguments[0]) + arguments[0]
+      } else if (arguments.length === 4) {
+        //
+  
+        var array = [arguments[0], arguments[1], arguments[2], arguments[3]]
+        return array[Math.floor(Math.random() * array.length)]
+        //return console.log(item)
+      }
+      return 0 // по дефолту
+    }
+  
+    // экранный помощник
+    var screenInfo = function(e) {
+      var width = Math.max(
+          0,
+          _w.innerWidth || _d.clientWidth || _b.clientWidth || 0
+        ),
+        height = Math.max(
+          0,
+          _w.innerHeight || _d.clientHeight || _b.clientHeight || 0
+        ),
+        scrollx =
+          Math.max(0, _w.pageXOffset || _d.scrollLeft || _b.scrollLeft || 0) -
+          (_d.clientLeft || 0),
+        scrolly =
+          Math.max(0, _w.pageYOffset || _d.scrollTop || _b.scrollTop || 0) -
+          (_d.clientTop || 0)
+  
+      return {
+        width: width,
+        height: height,
+        ratio: width / height,
+        centerx: width / 2,
+        centery: height / 2,
+        scrollx: scrollx,
+        scrolly: scrolly
+      }
+    }
+  
+    // мышь/ввод 
+    var mouseInfo = function(e) {
+      var screen = screenInfo(e),
+        mousex = e ? Math.max(0, e.pageX || e.clientX || 0) : 0,
+        mousey = e ? Math.max(0, e.pageY || e.clientY || 0) : 0
+  
+      return {
+        mousex: mousex,
+        mousey: mousey,
+        centerx: mousex - screen.width / 2,
+        centery: mousey - screen.height / 2
+      }
+    }
+  
+    // 
+    var Point = function(x, y) {
+      this.x = 0
+      this.y = 0
+      this.set(x, y)
+    }
+    Point.prototype = {
+      constructor: Point,
+  
+      set: function(x, y) {
+        this.x = x || 0
+        this.y = y || 0
+      },
+      copy: function(point) {
+        this.x = point.x || 0
+        this.y = point.y || 0
+        return this
+      },
+      multiply: function(x, y) {
+        this.x *= x || 1
+        this.y *= y || 1
+        return this
+      },
+      divide: function(x, y) {
+        this.x /= x || 1
+        this.y /= y || 1
+        return this
+      },
+      add: function(x, y) {
+        this.x += x || 0
+        this.y += y || 0
+        return this
+      },
+      subtract: function(x, y) {
+        this.x -= x || 0
+        this.y -= y || 0
+        return this
+      },
+      clampX: function(min, max) {
+        this.x = Math.max(min, Math.min(this.x, max))
+        return this
+      },
+      clampY: function(min, max) {
+        this.y = Math.max(min, Math.min(this.y, max))
+        return this
+      },
+      flipX: function() {
+        this.x *= -1
+        return this
+      },
+      flipY: function() {
+        this.y *= -1
+        return this
+      }
+    }
+  
+    // конструктор класса
+    var Factory = function(options) {
+      this._canvas = null
+      this._context = null
+      this._sto = null
+      this._width = 0
+      this._height = 0
+      this._scroll = 0
+      this._ribbons = []
+      this._options = {
+        // степень насыщенности цвета ленты HSL
+        colorSaturation: '80%',
+        // цвет ленты HSL величина яркости
+        colorBrightness: '60%',
+        // степень непрозрачности цвета ленты
+        colorAlpha: 0.65,
+        // как быстро переключаемся между цветами в цветовом пространстве "HSL"
+        colorCycleSpeed: 6,
+        // с чего начинаем на оси Y с каждой стороны (верх|минимум, середина|центр, низ|максимум, произвольно)
+        verticalPosition: 'center',
+        // насколько быстро добираемся до другой стороны экрана
+        horizontalSpeed: 150,
+        // сколько лент должно отображаться на экране в определенный момент времени
+        ribbonCount: 3,
+        // добавим обводку вместе с цветами заливки ленты
+        strokeSize: 0,
+        // перемещение ленты по вертикали в несколько раз при прокрутке(скролле) страницы
+        parallaxAmount: -0.5,
+        // со временем добавляем анимационный эффект к каждому разделу ленты 
+        animateSections: true
+      }
+      this._onDraw = this._onDraw.bind(this)
+      this._onResize = this._onResize.bind(this)
+      this._onScroll = this._onScroll.bind(this)
+      this.setOptions(options)
+      this.init()
+    }
+  
+    // прототип класса
+    Factory.prototype = {
+      constructor: Factory,
+  
+      // Установка и объединение локальных параметров
+      setOptions: function(options) {
+        if (typeof options === 'object') {
+          for (var key in options) {
+            if (options.hasOwnProperty(key)) {
+              this._options[key] = options[key]
+            }
+          }
+        }
+      },
+  
+      // эффект лент
+      init: function() {
+        try {
+          this._canvas = document.createElement('canvas')
+          this._canvas.style['display'] = 'block'
+          this._canvas.style['position'] = 'fixed'
+          this._canvas.style['margin'] = '0'
+          this._canvas.style['padding'] = '0'
+          this._canvas.style['border'] = '0'
+          this._canvas.style['outline'] = '0'
+          this._canvas.style['left'] = '0'
+          this._canvas.style['top'] = '0'
+          this._canvas.style['width'] = '100%'
+          this._canvas.style['height'] = '100%'
+          this._canvas.style['z-index'] = '-1'
+          this._onResize()
+  
+          this._context = this._canvas.getContext('2d')
+          this._context.clearRect(0, 0, this._width, this._height)
+          this._context.globalAlpha = this._options.colorAlpha
+  
+          window.addEventListener('resize', this._onResize)
+          window.addEventListener('scroll', this._onScroll)
+          document.body.appendChild(this._canvas)
+        } catch (e) {
+          console.warn('Canvas Context Error: ' + e.toString())
+          return
+        }
+        this._onDraw()
+      },
+  
+      // 
+      addRibbon: function() {
+        // 
+        var dir = Math.round(random(1, 9)) > 5 ? 'right' : 'left',
+          stop = 1000,
+          hide = 200,
+          min = 0 - hide,
+          max = this._width + hide,
+          movex = 0,
+          movey = 0,
+          startx = dir === 'right' ? min : max,
+          starty = Math.round(random(0, this._height))
+  
+        // 
+        if (/^(top|min)$/i.test(this._options.verticalPosition)) {
+          starty = 0 + hide
+        } else if (/^(middle|center)$/i.test(this._options.verticalPosition)) {
+          starty = this._height / 2
+        } else if (/^(bottom|max)$/i.test(this._options.verticalPosition)) {
+          starty = this._height - hide
+        }
+  
+        // 
+        var ribbon = [],
+          point1 = new Point(startx, starty),
+          point2 = new Point(startx, starty),
+          point3 = null,
+          color = Math.round(random(35, 35, 40, 40)),
+          delay = 0
+  
+        // 
+        while (true) {
+          if (stop <= 0) break
+          stop--
+  
+          movex = Math.round(
+            (Math.random() * 1 - 0.2) * this._options.horizontalSpeed
+          )
+          movey = Math.round((Math.random() * 1 - 0.5) * (this._height * 0.25))
+  
+          point3 = new Point()
+          point3.copy(point2)
+  
+          if (dir === 'right') {
+            point3.add(movex, movey)
+            if (point2.x >= max) break
+          } else if (dir === 'left') {
+            point3.subtract(movex, movey)
+            if (point2.x <= min) break
+          }
+          // point3.clampY( 0, this._height );
+          //console.log(Math.round(random(1, 5)))
+          ribbon.push({
+            // "Готовые ленты" в раздел "Одна лента"
+            point1: new Point(point1.x, point1.y),
+            point2: new Point(point2.x, point2.y),
+            point3: point3,
+            color: color,
+            delay: delay,
+            dir: dir,
+            alpha: 0,
+            phase: 0
+          })
+  
+          point1.copy(point2)
+          point2.copy(point3)
+  
+          delay += 4
+          //color += 1
+          //
+        }
+        this._ribbons.push(ribbon)
+      },
+  
+      // 
+      _drawRibbonSection: function(section) {
+        if (section) {
+          if (section.phase >= 1 && section.alpha <= 0) {
+            return true // done
+          }
+          if (section.delay <= 0) {
+            section.phase += 0.02
+            section.alpha = Math.sin(section.phase) * 1
+            section.alpha = section.alpha <= 0 ? 0 : section.alpha
+            section.alpha = section.alpha >= 1 ? 1 : section.alpha
+  
+            if (this._options.animateSections) {
+              var mod = Math.sin(1 + section.phase * Math.PI / 2) * 0.1
+  
+              if (section.dir === 'right') {
+                section.point1.add(mod, 0)
+                section.point2.add(mod, 0)
+                section.point3.add(mod, 0)
+              } else {
+                section.point1.subtract(mod, 0)
+                section.point2.subtract(mod, 0)
+                section.point3.subtract(mod, 0)
+              }
+              section.point1.add(0, mod)
+              section.point2.add(0, mod)
+              section.point3.add(0, mod)
+            }
+          } else {
+            section.delay -= 0.5
+          }
+          //console.log
+          var s = this._options.colorSaturation,
+            l = this._options.colorBrightness,
+            c =
+              'hsla(' +
+              section.color +
+              ', ' +
+              s +
+              ', ' +
+              l +
+              ', ' +
+              section.alpha +
+              ' )'
+  
+          this._context.save()
+  
+          if (this._options.parallaxAmount !== 0) {
+            this._context.translate(
+              0,
+              this._scroll * this._options.parallaxAmount
+            )
+          }
+          this._context.beginPath()
+          this._context.moveTo(section.point1.x, section.point1.y)
+          this._context.lineTo(section.point2.x, section.point2.y)
+          this._context.lineTo(section.point3.x, section.point3.y)
+          this._context.fillStyle = c
+          this._context.fill()
+  
+          if (this._options.strokeSize > 0) {
+            this._context.lineWidth = this._options.strokeSize
+            this._context.strokeStyle = c
+            this._context.lineCap = 'round'
+            this._context.stroke()
+          }
+          this._context.restore()
+        }
+        return false // 
+      },
+  
+      // Рисуем лентОчки
+      _onDraw: function() {
+        // очистка списка лентОчек для повторного перемещения готовых лентОчек
+        for (var i = 0, t = this._ribbons.length; i < t; ++i) {
+          if (!this._ribbons[i]) {
+            this._ribbons.splice(i, 1)
+          }
+        }
+  
+        // 
+        this._context.clearRect(0, 0, this._width, this._height)
+  
+        for (
+          var a = 0;
+          a < this._ribbons.length;
+          ++a //
+        ) {
+          var ribbon = this._ribbons[a],
+            numSections = ribbon.length,
+            numDone = 0
+  
+          for (
+            var b = 0;
+            b < numSections;
+            ++b // 
+          ) {
+            if (this._drawRibbonSection(ribbon[b])) {
+              numDone++ //
+            }
+          }
+          if (numDone >= numSections) {
+            // 
+            this._ribbons[a] = null
+          }
+        }
+        // количество лентОчек на странице
+        if (this._ribbons.length < this._options.ribbonCount) {
+          this.addRibbon()
+        }
+        requestAnimationFrame(this._onDraw)
+      },
+  
+      // Тут обновляем информацию о размере контейнера
+      _onResize: function(e) {
+        var screen = screenInfo(e)
+        this._width = screen.width
+        this._height = screen.height
+  
+        if (this._canvas) {
+          this._canvas.width = this._width
+          this._canvas.height = this._height
+  
+          if (this._context) {
+            this._context.globalAlpha = this._options.colorAlpha
+          }
+        }
+      },
+  
+      // Тут обновляем информацию о размере
+      _onScroll: function(e) {
+        var screen = screenInfo(e)
+        this._scroll = screen.scrolly
+      }
+    }
+  
+    // экспорт рисунка
+    return Factory
+  })
+  
+  new Ribbons({
+    colorSaturation: '45%',
+    colorBrightness: '85%',
+    colorAlpha: 0.5,
+    colorCycleSpeed: 1100,
+    verticalPosition: 'random',
+    horizontalSpeed: 250,
+    ribbonCount: 2,
+    strokeSize: 2,
+    parallaxAmount: 0.0,
+    animateSections: true
+  });(function(name, factory) {
+    if (typeof window === 'object') {
+      window[name] = factory()
+    }
+  })('Ribbons', function() {
+    var _w = window,
+      _b = document.body,
+      _d = document.documentElement
+  
+    // Рандом помощник
+    var random = function() {
+      if (arguments.length === 1) {
+        // only 1 аргумент
+        if (Array.isArray(arguments[0])) {
+          // извлечь индекс из массива
+          var index = Math.round(random(0, arguments[0].length - 1))
+          return arguments[0][index]
+        }
+        return random(0, arguments[0]) // числовой
+      } else if (arguments.length === 2) {
+        // диапазон двух аргументов
+        return Math.random() * (arguments[1] - arguments[0]) + arguments[0]
+      } else if (arguments.length === 4) {
+        //
+  
+        var array = [arguments[0], arguments[1], arguments[2], arguments[3]]
+        return array[Math.floor(Math.random() * array.length)]
+        //return console.log(item)
+      }
+      return 0 // по дефолту
+    }
+  
+    // экранный помощник
+    var screenInfo = function(e) {
+      var width = Math.max(
+          0,
+          _w.innerWidth || _d.clientWidth || _b.clientWidth || 0
+        ),
+        height = Math.max(
+          0,
+          _w.innerHeight || _d.clientHeight || _b.clientHeight || 0
+        ),
+        scrollx =
+          Math.max(0, _w.pageXOffset || _d.scrollLeft || _b.scrollLeft || 0) -
+          (_d.clientLeft || 0),
+        scrolly =
+          Math.max(0, _w.pageYOffset || _d.scrollTop || _b.scrollTop || 0) -
+          (_d.clientTop || 0)
+  
+      return {
+        width: width,
+        height: height,
+        ratio: width / height,
+        centerx: width / 2,
+        centery: height / 2,
+        scrollx: scrollx,
+        scrolly: scrolly
+      }
+    }
+  
+    // мышь/ввод 
+    var mouseInfo = function(e) {
+      var screen = screenInfo(e),
+        mousex = e ? Math.max(0, e.pageX || e.clientX || 0) : 0,
+        mousey = e ? Math.max(0, e.pageY || e.clientY || 0) : 0
+  
+      return {
+        mousex: mousex,
+        mousey: mousey,
+        centerx: mousex - screen.width / 2,
+        centery: mousey - screen.height / 2
+      }
+    }
+  
+    // 
+    var Point = function(x, y) {
+      this.x = 0
+      this.y = 0
+      this.set(x, y)
+    }
+    Point.prototype = {
+      constructor: Point,
+  
+      set: function(x, y) {
+        this.x = x || 0
+        this.y = y || 0
+      },
+      copy: function(point) {
+        this.x = point.x || 0
+        this.y = point.y || 0
+        return this
+      },
+      multiply: function(x, y) {
+        this.x *= x || 1
+        this.y *= y || 1
+        return this
+      },
+      divide: function(x, y) {
+        this.x /= x || 1
+        this.y /= y || 1
+        return this
+      },
+      add: function(x, y) {
+        this.x += x || 0
+        this.y += y || 0
+        return this
+      },
+      subtract: function(x, y) {
+        this.x -= x || 0
+        this.y -= y || 0
+        return this
+      },
+      clampX: function(min, max) {
+        this.x = Math.max(min, Math.min(this.x, max))
+        return this
+      },
+      clampY: function(min, max) {
+        this.y = Math.max(min, Math.min(this.y, max))
+        return this
+      },
+      flipX: function() {
+        this.x *= -1
+        return this
+      },
+      flipY: function() {
+        this.y *= -1
+        return this
+      }
+    }
+  
+    // конструктор класса
+    var Factory = function(options) {
+      this._canvas = null
+      this._context = null
+      this._sto = null
+      this._width = 0
+      this._height = 0
+      this._scroll = 0
+      this._ribbons = []
+      this._options = {
+        // степень насыщенности цвета ленты HSL
+        colorSaturation: '80%',
+        // цвет ленты HSL величина яркости
+        colorBrightness: '60%',
+        // степень непрозрачности цвета ленты
+        colorAlpha: 0.65,
+        // как быстро переключаемся между цветами в цветовом пространстве "HSL"
+        colorCycleSpeed: 6,
+        // с чего начинаем на оси Y с каждой стороны (верх|минимум, середина|центр, низ|максимум, произвольно)
+        verticalPosition: 'center',
+        // насколько быстро добираемся до другой стороны экрана
+        horizontalSpeed: 150,
+        // сколько лент должно отображаться на экране в определенный момент времени
+        ribbonCount: 3,
+        // добавим обводку вместе с цветами заливки ленты
+        strokeSize: 0,
+        // перемещение ленты по вертикали в несколько раз при прокрутке(скролле) страницы
+        parallaxAmount: -0.5,
+        // со временем добавляем анимационный эффект к каждому разделу ленты 
+        animateSections: true
+      }
+      this._onDraw = this._onDraw.bind(this)
+      this._onResize = this._onResize.bind(this)
+      this._onScroll = this._onScroll.bind(this)
+      this.setOptions(options)
+      this.init()
+    }
+  
+    // прототип класса
+    Factory.prototype = {
+      constructor: Factory,
+  
+      // Установка и объединение локальных параметров
+      setOptions: function(options) {
+        if (typeof options === 'object') {
+          for (var key in options) {
+            if (options.hasOwnProperty(key)) {
+              this._options[key] = options[key]
+            }
+          }
+        }
+      },
+  
+      // эффект лент
+      init: function() {
+        try {
+          this._canvas = document.createElement('canvas')
+          this._canvas.style['display'] = 'block'
+          this._canvas.style['position'] = 'fixed'
+          this._canvas.style['margin'] = '0'
+          this._canvas.style['padding'] = '0'
+          this._canvas.style['border'] = '0'
+          this._canvas.style['outline'] = '0'
+          this._canvas.style['left'] = '0'
+          this._canvas.style['top'] = '0'
+          this._canvas.style['width'] = '100%'
+          this._canvas.style['height'] = '100%'
+          this._canvas.style['z-index'] = '-1'
+          this._onResize()
+  
+          this._context = this._canvas.getContext('2d')
+          this._context.clearRect(0, 0, this._width, this._height)
+          this._context.globalAlpha = this._options.colorAlpha
+  
+          window.addEventListener('resize', this._onResize)
+          window.addEventListener('scroll', this._onScroll)
+          document.body.appendChild(this._canvas)
+        } catch (e) {
+          console.warn('Canvas Context Error: ' + e.toString())
+          return
+        }
+        this._onDraw()
+      },
+  
+      // 
+      addRibbon: function() {
+        // 
+        var dir = Math.round(random(1, 9)) > 5 ? 'right' : 'left',
+          stop = 1000,
+          hide = 200,
+          min = 0 - hide,
+          max = this._width + hide,
+          movex = 0,
+          movey = 0,
+          startx = dir === 'right' ? min : max,
+          starty = Math.round(random(0, this._height))
+  
+        // 
+        if (/^(top|min)$/i.test(this._options.verticalPosition)) {
+          starty = 0 + hide
+        } else if (/^(middle|center)$/i.test(this._options.verticalPosition)) {
+          starty = this._height / 2
+        } else if (/^(bottom|max)$/i.test(this._options.verticalPosition)) {
+          starty = this._height - hide
+        }
+  
+        // 
+        var ribbon = [],
+          point1 = new Point(startx, starty),
+          point2 = new Point(startx, starty),
+          point3 = null,
+          color = Math.round(random(35, 35, 40, 40)),
+          delay = 0
+  
+        // 
+        while (true) {
+          if (stop <= 0) break
+          stop--
+  
+          movex = Math.round(
+            (Math.random() * 1 - 0.2) * this._options.horizontalSpeed
+          )
+          movey = Math.round((Math.random() * 1 - 0.5) * (this._height * 0.25))
+  
+          point3 = new Point()
+          point3.copy(point2)
+  
+          if (dir === 'right') {
+            point3.add(movex, movey)
+            if (point2.x >= max) break
+          } else if (dir === 'left') {
+            point3.subtract(movex, movey)
+            if (point2.x <= min) break
+          }
+          //console.log(Math.round(random(1, 5)))
+          ribbon.push({
+            // "Готовые ленты" в раздел "Одна лента"
+            point1: new Point(point1.x, point1.y),
+            point2: new Point(point2.x, point2.y),
+            point3: point3,
+            color: color,
+            delay: delay,
+            dir: dir,
+            alpha: 0,
+            phase: 0
+          })
+  
+          point1.copy(point2)
+          point2.copy(point3)
+  
+          delay += 4
+          //color += 1
+          //
+        }
+        this._ribbons.push(ribbon)
+      },
+  
+      // 
+      _drawRibbonSection: function(section) {
+        if (section) {
+          if (section.phase >= 1 && section.alpha <= 0) {
+            return true // done
+          }
+          if (section.delay <= 0) {
+            section.phase += 0.02
+            section.alpha = Math.sin(section.phase) * 1
+            section.alpha = section.alpha <= 0 ? 0 : section.alpha
+            section.alpha = section.alpha >= 1 ? 1 : section.alpha
+  
+            if (this._options.animateSections) {
+              var mod = Math.sin(1 + section.phase * Math.PI / 2) * 0.1
+  
+              if (section.dir === 'right') {
+                section.point1.add(mod, 0)
+                section.point2.add(mod, 0)
+                section.point3.add(mod, 0)
+              } else {
+                section.point1.subtract(mod, 0)
+                section.point2.subtract(mod, 0)
+                section.point3.subtract(mod, 0)
+              }
+              section.point1.add(0, mod)
+              section.point2.add(0, mod)
+              section.point3.add(0, mod)
+            }
+          } else {
+            section.delay -= 0.5
+          }
+          //Сама console.log
+          var s = this._options.colorSaturation,
+            l = this._options.colorBrightness,
+            c =
+              'hsla(' +
+              section.color +
+              ', ' +
+              s +
+              ', ' +
+              l +
+              ', ' +
+              section.alpha +
+              ' )'
+  
+          this._context.save()
+  
+          if (this._options.parallaxAmount !== 0) {
+            this._context.translate(
+              0,
+              this._scroll * this._options.parallaxAmount
+            )
+          }
+          this._context.beginPath()
+          this._context.moveTo(section.point1.x, section.point1.y)
+          this._context.lineTo(section.point2.x, section.point2.y)
+          this._context.lineTo(section.point3.x, section.point3.y)
+          this._context.fillStyle = c
+          this._context.fill()
+  
+          if (this._options.strokeSize > 0) {
+            this._context.lineWidth = this._options.strokeSize
+            this._context.strokeStyle = c
+            this._context.lineCap = 'round'
+            this._context.stroke()
+          }
+          this._context.restore()
+        }
+        return false // 
+      },
+  
+      // Рисуем лентОчки
+      _onDraw: function() {
+        // очистка списка лентОчек для повторного перемещения готовых лентОчек
+        for (var i = 0, t = this._ribbons.length; i < t; ++i) {
+          if (!this._ribbons[i]) {
+            this._ribbons.splice(i, 1)
+          }
+        }
+  
+        // 
+        this._context.clearRect(0, 0, this._width, this._height)
+  
+        for (
+          var a = 0;
+          a < this._ribbons.length;
+          ++a //
+        ) {
+          var ribbon = this._ribbons[a],
+            numSections = ribbon.length,
+            numDone = 0
+  
+          for (
+            var b = 0;
+            b < numSections;
+            ++b // 
+          ) {
+            if (this._drawRibbonSection(ribbon[b])) {
+              numDone++ //
+            }
+          }
+          if (numDone >= numSections) {
+            // 
+            this._ribbons[a] = null
+          }
+        }
+        // количество лентОчек на странице
+        if (this._ribbons.length < this._options.ribbonCount) {
+          this.addRibbon()
+        }
+        requestAnimationFrame(this._onDraw)
+      },
+  
+      // Тут обновляею информацию о размере контейнера
+_onResize: function(e) {
+  this._width = window.innerWidth;
+  this._height = window.innerHeight;
+  if (this._canvas) {
+    this._canvas.width = this._width;
+    this._canvas.height = this._height;
+  }
+  this._context && this._context.clearRect(0, 0, this._width, this._height);
+},
+  
+      // Тут обновляю информацию о размере
+      _onScroll: function(e) {
+        var screen = screenInfo(e)
+        this._scroll = screen.scrolly
+      }
+    }
+  
+    // экспорт моего рисунка
+    return Factory
+  })
+  
+  new Ribbons({
+    colorSaturation: '35%',
+    colorBrightness: '85%',
+    colorAlpha: 0.5,
+    colorCycleSpeed: 1000,
+    verticalPosition: 'random',
+    horizontalSpeed: 250,
+    ribbonCount: 2,
+    strokeSize: 2,
+    parallaxAmount: 0.0,
+    animateSections: true
+  })
+</script>
+<script src="ПРИZ.js"></script>
+<script src="script.js"></script>
+<!-- Кнопка «Наверх» -->
+<button id="scrollToTop" aria-label="Вернуться к началу страницы">
+  ↑
+</button>
+<script>
+// Инициализируем клиент
+const supabaseUrl = 'https://your-project-ref.supabase.co'; // из Settings → API
+const supabaseKey = 'your-anon-key'; // из Settings → API
+const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+// Глобальная переменная для хранения корзины
+let cart = [];</script>
+</body>
+</html>
